@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".db.CoolWeatherOpenHelper" />
+        <activity android:name=".model.Province" />
+        <activity android:name=".model.City" />
+        <activity android:name=".model.County" />
+        <activity android:name=".db.CoolWeatherDB"></activity>
     </application>
 
 </manifest>
